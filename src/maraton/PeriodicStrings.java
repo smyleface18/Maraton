@@ -12,10 +12,10 @@ public class PeriodicStrings {
         
          n = sca.nextInt();
         sca.nextLine();
+        String text =sca.nextLine();
         int exit = 0;
         for (int i = 0; i < n; i++) {
-
-            String text = sca.nextLine();
+             text = sca.nextLine();
             char letter = text.charAt(0);
             for (int j = 1; j < text.length(); j++) {
                 if(letter == text.charAt(j)){
