@@ -12,7 +12,7 @@ public class PeriodicStrings {
         
          n = sca.nextInt();
         sca.nextLine();
-        String text =sca.nextLine();
+        String text = sca.nextLine();
         int exit = 0;
         for (int i = 0; i < n; i++) {
              text = sca.nextLine();
